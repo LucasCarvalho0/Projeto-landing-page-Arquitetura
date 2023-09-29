@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#faixa-cima{
+    height: 450px;
+    background-image: url(imagens/img-faixa-cima-svg);
+    background-color: #303030;
+    padding: 80px;
+}
+
+#texto-cima{
+    color: #FFFFFF;
+    font-size: 60px;
+    padding: 65px;
+}
+
+
+#texto-baixo{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 10px;
+    padding-left: 62px;
+    
+}
+
+#imagen-info{
+   padding-left: 876px;
+   padding-top: 180px;
+}
+
+#texto-informativo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+
+#textoformal{
+    margin: 161px;
+    font-size: 31px; 
+}
+
+#textoformalbaixo{
+    margin: 161px;
+    font-size: 19px;
+}
+
+#foto-meio{
+    width: 510px;
+    height: 605px;
+   
+}
+
+#formulário{
+    background-image: url(./imagens/imagem.final.svg);
+    padding: 20px;
+    margin-top: 158px;
+}
+
+
+#titulo-formulario{
+    color: #FFFFFF;
+    margin: 48px;
+    margin-left: 350px;
+}
+
+
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin-left: 508px;
+ }
+ 
+ button{
+     background-color: #C07212;
+     height: 40px;
+     width: 186px;
+     color: #FFFFFF;
+     border: 0px;
+     border-radius: 5px;
+     margin-bottom: 50px;
+     font-weight: bolder;
+     cursor: pointer;
+     margin: 15px;
+     margin-left: 566px;
+     
+    
+ }
+ 
+ button:hover{
+     background-color: #C07212;
+     color: #FFFFFF;
+     transform: translateY(-7px);
+     box-shadow: 0px 20px 20px #54340c;
+     transition-duration: 0.5s;
+ }
+
